@@ -39,7 +39,7 @@ export const Form = () => {
   };
 
   useEffect(() => {
-    console.log(formErrors);
+    // console.log(formErrors);
     if (
       Object.keys(formErrors).length ===
         0 &&
